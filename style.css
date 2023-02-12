@@ -4,5 +4,28 @@
 }
 
 body {
+    width: 100%;
     background-color: burlywood;
+}
+
+header {
+    
+}
+
+header .menu{
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: purple;
+    
+    height: 30px;
+    width: 400px;
+}
+
+header .menu a{
+    text-decoration: none;
+    color: white;
 }
